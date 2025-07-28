@@ -11,33 +11,7 @@ This audience wants to learn about our offerings and get hands-on experience wit
 ## Requirements
 
 - **[Azure Account](https://docs.google.com/document/d/1XEkiGWUC4_AzngZQLQnVt8yWCb3dft1HzXglUnJcJzM/edit)** 
-- **[Azure Devops Account](https://docs.google.com/document/d/12tL1KMNMq3IPNkeSPOVNTpzk0irfMFLNu68BLeUn-sI/edit?usp=sharing)** 
 - **Hands-on Labs**
-
-  - Install Homebrew
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-- **Install VS Code**
-
-```azurecli-interactive
-brew install xcodegen
-xcode-select --install
-```
-
-- **Install Powershell**
-
-```azurecli-interactive
-brew install --cask powershell
-```
-
-- **Install Azure CLI**
-
-```azurecli-interactive
-brew update && brew install azure-cli
-```
 
 ## About the AZ-900 BOOTCAMP
 
@@ -61,6 +35,7 @@ Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
   * Identify appropriate use cases for each cloud model
   * Describe the consumption-based model
   * Compare cloud pricing models
+  * Describe serverless
 
 ### [Describe the benefits of using cloud services](M1/02/README.md)
 
@@ -90,11 +65,11 @@ Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
 
 ### [Describe Azure compute and networking services](M2/02/README.md)
 
-  * Compare compute types, including container instances, virtual machines (VMs), and functions
-  * Describe VM options, including Azure Virtual Machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop
+  * Compare compute types, including container instances, virtual machines, and functions
+  * Describe virtual machine options, including Azure virtual machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop
   * Describe resources required for virtual machines
-  * Describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines
-  * Describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute
+  * Describe application hosting options, including web apps, containers, and virtual machines
+  * Describe virtual networking, including the purpose of Azure virtual networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and ExpressRoute
   * Define public and private endpoints
 
 ### [Describe Azure storage services](M2/03/README.md)
@@ -108,10 +83,10 @@ Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
 
 ### [Describe Azure identity, access, and security](M2/04/README.md)
 
-  * Describe directory services in Azure, including Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra and Azure Active Directory Domain Services (Azure AD DS)
-  * Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and passwordless
-  * Describe external identities and guest access in Azure
-  * Describe Conditional Access in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra
+  * Describe directory services in Azure, including Azure Active Directory (Azure AD), part of Microsoft Entra and Azure Active Directory Domain Services (Azure AD DS)
+  * Describe authentication methods in Azure, including single sign-on (SSO), multi-factor authentication (MFA), and passwordless
+  * Describe external identities in Azure, including business-to-business (B2B) and business-to-customer (B2C)
+  * Describe Conditional Access in Azure AD
   * Describe Azure role-based access control (RBAC)
   * Describe the concept of Zero Trust
   * Describe the purpose of the defense in depth model
@@ -123,22 +98,22 @@ Exam AZ-900: Microsoft Azure Fundamentals – Skills Measured
 
   * Describe factors that can affect costs in Azure
   * Compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
-  * Describe the Azure Cost Management and Billing tool
+  * Describe cost management capabilities in Azure
   * Describe the purpose of tags
 
 ### [Describe features and tools in Azure for governance and compliance](M3/02/README.md)
 
-  * Describe the purpose of Azure Blueprints
+  * Describe the purpose of Microsoft Purview in Azure
   * Describe the purpose of Azure Policy
   * Describe the purpose of resource locks
-  * Describe the purpose of the Service Trust Portal
 
 ### [Describe features and tools for managing and deploying Azure resources](M3/03/README.md)
 
   * Describe the Azure portal
-  * Describe Azure Cloud Shell, including Azure CLI and Azure PowerShell
+  * Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell
   * Describe the purpose of Azure Arc
-  * Describe Azure Resource Manager and Azure Resource Manager templates (ARM templates)
+  * Describe infrastructure as code (IaC)
+  * Describe Azure Resource Manager (ARM) and ARM templates
 
 ### [Describe monitoring tools in Azure](M3/04/README.md)
 
